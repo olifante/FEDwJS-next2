@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import { Button } from 'react-bootstrap';
-export default () => (
+import Head from "next/head"
+import { Button } from "react-bootstrap"
+export default () =>
   <div>
     <Head>
       <title>My page title</title>
@@ -9,4 +9,3 @@ export default () => (
     <p>Hello world!</p>
     <Button>Click me!</Button>
   </div>
-)
