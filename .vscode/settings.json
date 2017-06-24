@@ -8,5 +8,6 @@
         "package-lock.json": true,
         ".vscode": true
     },
-    "prettier.semi": false
+    "prettier.semi": false,
+    "prettier.tabWidth": 4
 }
