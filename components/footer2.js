@@ -1,4 +1,7 @@
-export default ({ text }) =>
-  <footer>
-    {text}
-  </footer>
+export default function({ text }) {
+    return (
+        <footer>
+            {text}
+        </footer>
+    )
+}
