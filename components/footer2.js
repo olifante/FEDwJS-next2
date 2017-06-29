@@ -1,7 +1,12 @@
-export default function({ text }) {
+let Footer = function({ text }) {
     return (
-        <footer>
-            {text}
-        </footer>
+        <div>
+            <hr />
+            <footer>
+                {text}
+            </footer>
+        </div>
     )
 }
+
+export default Footer

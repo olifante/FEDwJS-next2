@@ -1,11 +1,20 @@
 import Head from "next/head"
-export default function() {
+
+let Page = function() {
     return (
         <div>
             <Head>
-                <title>My page title</title>
+                <title>My awesome page!</title>
             </Head>
-            <div>Welcome to next.js!</div>
+            <div>
+                <h1>This page is awesome!</h1>
+                <div>
+                    This is our great new page! It's great! It really is! It's
+                    awesome! Let's make the web great again!
+                </div>
+            </div>
         </div>
     )
 }
+
+export default Page

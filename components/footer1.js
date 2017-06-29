@@ -1,7 +1,12 @@
-export default function() {
+let Footer = function() {
     return (
-        <footer>
-            Footer™ ©2017 Tiago Henriques
-        </footer>
+        <div>
+            <footer>
+                <hr />
+                Footer™ ©2017 Tiago Henriques
+            </footer>
+        </div>
     )
 }
+
+export default Footer
