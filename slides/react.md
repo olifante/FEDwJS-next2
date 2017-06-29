@@ -150,9 +150,9 @@ On Windows 10, [Open Command Prompt as Administrator](https://www.howtogeek.com/
 Run the following command:
 
 ```cmd
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" ^
--NoProfile -ExecutionPolicy Bypass -Command ^
-"iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" ^
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" 
+-NoProfile -ExecutionPolicy Bypass -Command 
+"iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" 
 && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 
@@ -311,4 +311,4 @@ Footer(properties)
 
 # Install React Developer Tools
 
-Follow [these instructions](https://react-bootstrap.github.io/) to install Facebook's React Developer Tools. Once installed, you will have a new menu in the [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/) that lets you view the React-DOM, i.e. the tree of React components that corresponds to your page.
+Follow [these instructions](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) to install Facebook's React Developer Tools. Once installed, you will have a new menu in the [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/) that lets you view the React-DOM, i.e. the tree of React components that corresponds to your page.
