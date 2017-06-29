@@ -7,15 +7,14 @@
     "next": "^2.4.6",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
-    "react-dom": "^15.6.1",
-    "webpack": "^2.6.1"
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "now": "^7.1.1"
   },
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
