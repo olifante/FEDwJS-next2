@@ -16,6 +16,7 @@ let Page = function() {
                 This is our great new page! It's great! It really is! It's
                 awesome! Let's make the web great again!
             </div>
+            <hr />
             <footer>
                 Footer™ ©2017 Tiago Henriques
             </footer>
