@@ -4,8 +4,11 @@ let Page = function() {
     return (
         <div>
             <Head>
-                <title>My page title</title>
-                <meta name="description" content="Let's make the web great again" />
+                <title>My awesome page!</title>
+                <meta
+                    name="description"
+                    content="Let's make the web great again"
+                />
                 <meta name="keywords" content="sample, react, demo, awesome" />
             </Head>
             <h1>This page is awesome!</h1>

@@ -5,7 +5,10 @@ let Page = function() {
         <div>
             <Head>
                 <title>My awesome page!</title>
-                <meta name="description" content="Let's make the web great again" />
+                <meta
+                    name="description"
+                    content="Let's make the web great again"
+                />
                 <meta name="keywords" content="sample, react, demo, awesome" />
             </Head>
             <h1>This page is awesome!</h1>
