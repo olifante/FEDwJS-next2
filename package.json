@@ -10,7 +10,7 @@
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
-    "now": "^7.0.2"
+    "now": "^7.1.1"
   },
   "scripts": {
     "dev": "next",
