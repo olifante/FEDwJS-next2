@@ -31,15 +31,9 @@ let Page = function() {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav activeKey="2">
-                        <NavItem eventKey={1} href="/item1">
-                            Item 1
-                        </NavItem>
-                        <NavItem eventKey={2} href="/item2">
-                            Item 2
-                        </NavItem>
-                        <NavItem eventKey={3} href="/item3">
-                            Item 3
-                        </NavItem>
+                        <NavItem eventKey="1">Item 1</NavItem>
+                        <NavItem eventKey="2">Item 2</NavItem>
+                        <NavItem eventKey="3">Item 3</NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
