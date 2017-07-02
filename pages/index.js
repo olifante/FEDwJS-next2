@@ -18,35 +18,35 @@ let Page = function() {
             <ul>
                 <li>
                     <a href="page1">Page 1</a>
-                    - a single div
+                    : a single div
                 </li>
                 <li>
                     <a href="page2">Page 2</a>
-                    - add h1 heading and use Head component to add a title to the page
+                    : add h1 heading and use Head component to add a title to the page
                 </li>
                 <li>
                     <a href="page3">Page 3</a>
-                    - add meta tags
+                    : add meta tags
                 </li>
                 <li>
                     <a href="page4">Page 4</a>
-                    - JSX uses "className", not "class"
+                    : JSX uses "className", not "class"
                 </li>
                 <li>
                     <a href="page5">Page 5</a>
-                    - add basic HTML5 footer
+                    : add basic HTML5 footer
                 </li>
                 <li>
                     <a href="page6">Page 6</a>
-                    - use Footer component
+                    : use Footer component
                 </li>
                 <li>
                     <a href="page7">Page 7</a>
-                    - modify Footer to accepts props
+                    : modify Footer to accepts props
                 </li>
                 <li>
                     <a href="page8">Page 8</a>
-                    - use React Bootstrap
+                    : use React Bootstrap
                 </li>
             </ul>
         </div>
